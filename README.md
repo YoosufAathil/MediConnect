@@ -1,4 +1,8 @@
+![Cover](https://github.com/user-attachments/assets/57485b3a-2a74-4f5d-b8c3-62e3e1d9ce44)
+
+
 # MediConnect - Healthcare System
+
 
 MediConnect is a comprehensive healthcare system built using Next.js, designed to streamline the management of healthcare services. This project integrates essential features like patient management, appointment scheduling, and medical records, providing a seamless experience for both healthcare providers and patients.
 
