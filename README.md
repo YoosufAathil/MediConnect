@@ -1,4 +1,6 @@
-![Uploading Cover.png…]()
+![Cover](https://github.com/user-attachments/assets/57485b3a-2a74-4f5d-b8c3-62e3e1d9ce44)
+![Cover](https://github.com/user-attachments/assets/d5f0428e-207b-4325-a2e0-f1b85f7e6bb3)
+
 # MediConnect - Healthcare System
 
 
