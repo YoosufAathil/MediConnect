@@ -13,6 +13,7 @@ import { FormFieldType } from "./forms/PatientForm";
 import Image from "next/image";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
+import { E164Number } from "libphonenumber-js/core";
 
 interface CustomProps {
   control: Control<any>;
