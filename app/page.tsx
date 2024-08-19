@@ -7,6 +7,7 @@ import onbording from "../public/assets/images/onboarding-img.png";
 export default function Home() {
   return (
     <div className="flex h-screen max-h-screen">
+      {/* OTP MODAL */}
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           <Image
