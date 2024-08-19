@@ -1,7 +1,6 @@
 "use client";
 import {
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -57,7 +56,6 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
         </div>
       );
 
-      return <Input {...field} placeholder={props.placeholder} />;
     case FormFieldType.PHONE_INPUT:
       return (
         <FormControl>
