@@ -34,18 +34,40 @@ const PatientForm = () => {
     },
   });
 
+  // async function onSubmit({
+  //   name,
+  //   email,
+  //   phone,
+  // }: z.infer<typeof UserFormValidation>) {
+  //   setIsLoading(true);
+  //   try {
+  //     const userData = { name, email, phone };
+  //     const user = await createUser(userData);
+  //     if (user) router.push(`/patients/${user.$id}/register`);
+  //   } catch (error) {
+  //     console.error("Error creating user:", error);
+  //   }
+  //   setIsLoading(false);
+  // }
+
   async function onSubmit({
     name,
     email,
     phone,
   }: z.infer<typeof UserFormValidation>) {
+    console.log("Form submitted");
     setIsLoading(true);
     try {
       const userData = { name, email, phone };
+      console.log("Creating user with data:", userData);
       const user = await createUser(userData);
+      console.log("User created:", user);
       if (user) router.push(`/patients/${user.$id}/register`);
     } catch (error) {
       console.error("Error creating user:", error);
+    } finally {
+      console.log("Resetting loading state");
+      setIsLoading(false);
     }
   }
 
